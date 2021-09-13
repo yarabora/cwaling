@@ -6,9 +6,9 @@ driver = webdriver.Chrome('C:\\webdriver\\chromedriver.exe')
 # # 네이버  로그인 화면 접속
 driver.get('https://nid.naver.com/nidlogin.login')
 sleep(3)
-driver.find_element_by_id('id').send_keys('lalala_0425')
+driver.find_element_by_id('id').send_keys('네이버아이디')
 sleep(3)
-driver.find_element_by_id('pw').send_keys('2018116a')
+driver.find_element_by_id('pw').send_keys('비밀번호')
 driver.find_element_by_xpath('/html/body/div[2]/div[3]/div/form/fieldset/input').click()
 
 # 두번째
