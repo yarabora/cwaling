@@ -60,12 +60,12 @@ time.sleep(3)
 
 # 인스타 그램 로그인을 위한 계정 정보
 
-email = 'hahah425@nate.com'
+email = 'email@address.com'
 input_id = driver.find_elements_by_css_selector('input._2hvTZ.pexuQ.zyHYP')[0]
 input_id.clear()
 input_id.send_keys(email)
 
-password = 'hu2018116A!'
+password = 'password!'
 input_pw = driver.find_elements_by_css_selector('input._2hvTZ.pexuQ.zyHYP')[1]
 input_pw.clear()
 input_pw.send_keys(password)
